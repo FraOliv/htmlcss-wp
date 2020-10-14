@@ -126,6 +126,9 @@ clear: both;
 .fas{
   float:left
 }
+a{
+  text-decoration: none;
+}
 
 .left .section p{
   color: green;
