@@ -188,10 +188,10 @@ footer {
 .footer_text{
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2);
   font-style: italic;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 16px;
+  opacity: 0.15
 
 }
 .footer_icon {
@@ -201,7 +201,7 @@ footer {
   font-size: 40px;
   margin: 0 150px;
   text-align:center;
-
+  opacity: 0.15
 }
 .footer_icon i:hover {
   color: rgb(255, 215, 0);
