@@ -192,13 +192,28 @@ footer {
   opacity: 0.15
 
 }
-.footer_icon {
-  margin: 10px;
+.footer_icon:after {
+content: "";
+display: table;
+clear: both;
 }
+
 .footer_icon i{
   font-size: 40px;
   margin: 0 150px;
   opacity: 0.15
+}
+.facebook{
+  float: left;
+  width: 30%
+}
+.instagram{
+  float: left;
+  width: 30%
+}
+.github{
+  float: left;
+  width: 30%
 }
 
 .footer_icon i:hover {
