@@ -1,0 +1,199 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../img/natural-default-pattern.png);
+  margin: 100px;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+/* inizio header */
+
+.nav_header{
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/natural.jpg);
+  background-size: cover;
+  position: relative;
+  border: 5px solid white;
+}
+
+.layover{
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 339px;
+}
+.title {
+  position:absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 250px;
+  background-image: url('../img/natural-logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+.subtitle{
+  position: absolute;
+  color: white;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+
+  }
+  .navbar{
+  width: 100%;
+  top: 0;
+  left:0;
+  background: #504741;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+
+}
+
+ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  vertical-align: middle;
+
+}
+ul li:hover{
+  background:#000000;
+
+}
+
+li a{
+  color: white;
+  text-decoration:none;
+  text-transform:capitalize;
+  height: 100%;
+  display: inline-block;
+  font-weight: lighter;
+  font-size:18px
+
+}
+/* fine header */
+
+/* inizio main */
+main {
+  height: 100%
+}
+
+/* Ricorda di tenere conto del margine attorno a main
+ quando fai le % dei blocchi */
+
+.container:after {
+content: "";
+display: table;
+clear: both;
+}
+.container .section{
+  border-radius: 10px;
+  background-color: white;
+  padding: 2%
+}
+
+.left{
+  float:left;
+  width:20%;
+}
+.titolone:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.left .section .titolone {
+  width: 60%;
+
+}
+.fas{
+  float:left
+}
+
+.left .section p{
+  color: green;
+  padding: 2%
+}
+.left .section i{
+  font-size: 30px;
+  color: orange;
+  padding: 2%
+}
+
+
+.center{
+  float:left;
+  width: 50%;
+  margin-left: 5%;
+}
+.center .section h1 {
+  margin-bottom: 20px
+}
+
+.right{
+  width: 20%;
+  float:left;
+  margin-left: 5%
+}
+.right .section{
+  margin-bottom: 20px;
+  padding: 2%
+}
+.right .section h1{
+  margin-bottom: 20px
+}
+.right .section p{
+  padding: 2%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* fine main */
+
+/* inizio footer */
+
+footer {
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  padding: 10px 0;
+  ;
+  }
+
+.footer_text{
+
+}
+.footer_icon {
+  margin: 10px;
+}
+.footer_icon i{
+  font-size: 40px;
+  margin: 0 150px;
+  text-align:center;
+
+}
+.footer_icon i:hover {
+  color: rgb(255, 215, 0);
+
+
+  /* fine footer */
